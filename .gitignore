@@ -1,0 +1,10 @@
+#ignore
+__BCKUP__/
+__pycache__/
+BCKUP_2022/
+kle/
+py-kle-master/
+randomfields/
+DNN_models_mixed_prec.py
+loss_scale_optimizer.py
+plot_func.py
