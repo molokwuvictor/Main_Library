@@ -1,4 +1,4 @@
-# Dataset Generator
+# Main Library
 This repository contains the main modules which are required for the artificial intelligence (AI)-based surrogate reservoir modelling. 
 
 The following modules are contained in this repository: 
@@ -8,7 +8,7 @@ The following modules are contained in this repository:
  - training_m: contains functions and derived classes, which are used to batch the dataset, reinitialize models and configure the optimizer prior to training. The optimizer configurations include: multi-optimizer settings, training callbacks, initial learning hyperparameters - learning rate, learning rate decay type. 
  - PVT_models: contains functions used to read the pressure-volume-temperature (PVT) dataset from a MS Excel file. The PVT dataset contains fluid property fields, which are required for the physics-based semi-supervised learning. 
 
-# How to build
+## How to build
 Building requires an integrated development enviroment (IDE) running the Python 3+ interpreter and following libraries installed.
  - Numpy 1.20+
  - Tensorflow 2.9+
